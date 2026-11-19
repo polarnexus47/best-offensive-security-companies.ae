@@ -1,0 +1,362 @@
+[
+  {
+    "key": "home",
+    "type": "main",
+    "slug": "/",
+    "title": "Best Offensive Security Companies in UAE (2026)",
+    "description": "Compare 10 offensive security companies in the UAE by testing depth, red teaming, reporting and methodology. Pentest providers, updated November 2026.",
+    "h1": "Best Offensive Security Companies in the UAE (2026)",
+    "schema": [
+      "Article",
+      "ItemList",
+      "FAQPage",
+      "BreadcrumbList"
+    ],
+    "faq": [
+      {
+        "q": "What is an offensive security company?",
+        "a": "An offensive security company tests a client's systems the way an attacker would, under written authorisation, and reports what it exploited. Typical services are penetration testing, red teaming, social engineering and application testing. The output is a report with evidence and remediation steps. Providers that mainly sell monitoring or SOC services are managed security companies, even when they add a testing line."
+      },
+      {
+        "q": "What is an example of offensive security?",
+        "a": "A web application penetration test is a common example. Testers map the application, try to bypass authentication and access control, exploit what they find with proof of concept, and document the impact. Another is a red team operation: a goal-driven simulated intrusion, for instance reaching a sensitive database from an external phishing email, run without notice to most defenders."
+      },
+      {
+        "q": "What is an offensive security platform?",
+        "a": "An offensive security platform is software that supports testing, such as penetration testing as a service portals, breach and attack simulation tools or attack surface scanners. It delivers findings continuously or on demand. A platform does not replace a manual test by itself. Check whether named testers validate the findings and whether the report contains proof of concept and remediation guidance."
+      },
+      {
+        "q": "What is the difference between a penetration test and a red team?",
+        "a": "A penetration test is a bounded technical assessment of defined systems, with the client's team usually informed, that finds as many exploitable weaknesses as the scope allows. A red team is a goal-driven simulation of a real adversary across people, process and technology, usually unannounced to most defenders. The penetration test measures exposure; the red team measures detection and response."
+      },
+      {
+        "q": "Which cybersecurity or pentest company is best in Dubai or Abu Dhabi?",
+        "a": "No single company is best for every buyer. This ranking compares ten providers by tier, stated testing scope and reporting transparency. Specialists suit deep manual testing; managed-security-led providers suit buyers who also want monitoring. Shortlist two or three providers, send each the same written scope, and compare methodology, report contents, retest terms and the named testers before choosing."
+      },
+      {
+        "q": "Do I need a CREST-accredited provider in the UAE?",
+        "a": "Only in specific cases. A CREST page from July 2024 says Dubai government, semi-government and critical information infrastructure entities must buy penetration testing and incident response from Dubai Cyber Force certified companies, while another CREST page still calls the programme expected to become mandatory from 31 July 2024. Confirm status with DESC. Other buyers are not required to use CREST by the sources reviewed."
+      },
+      {
+        "q": "Which UAE regulations require penetration testing?",
+        "a": "PCI DSS v4.0.1 Requirement 11.4 explicitly requires penetration testing for entities handling card data. The Dubai Cyber Force programme sets provider requirements for Dubai government work. The UAE IA Regulation and PDPL pages on the government portal describe general security duties and name no testing clause. DIFC and ADGM have separate data protection regimes. Check each rule's full text."
+      },
+      {
+        "q": "How long does a pentest take and what should the report contain?",
+        "a": "Duration depends on scope: the number of applications, user roles, hosts and the depth of manual work. The provider should state timeline and scope in a signed proposal. A usable report contains an executive summary, methodology, scope, each finding with severity, CVSS score, proof of concept and remediation steps, and a retest result after fixes."
+      },
+      {
+        "q": "Do offensive security firms investigate crypto theft?",
+        "a": "Some do, but testing and forensics are different services. Penetration testing finds weaknesses in exchanges, wallets and key management before an attack. Forensics traces stolen funds and preserves evidence after one. Check each company profile for a stated forensics service, and ask for the deliverable format. Tracing supports investigation; it does not guarantee recovery of funds."
+      }
+    ]
+  },
+  {
+    "key": "guide-a",
+    "type": "guide",
+    "slug": "/what-is-an-offensive-security-company/",
+    "title": "What Is an Offensive Security Company? UAE Guide 2026",
+    "description": "What offensive security companies do, how they differ from MSSP and SOC providers, and what UAE buyers should expect from penetration testing and red teaming.",
+    "h1": "What Is an Offensive Security Company?",
+    "schema": [
+      "Article",
+      "FAQPage",
+      "BreadcrumbList"
+    ],
+    "faq": [
+      {
+        "q": "Is offensive security the same as ethical hacking?",
+        "a": "Ethical hacking describes the activity: attacking systems with permission. Offensive security describes the discipline and the business built around it, including scoping, rules of engagement, reporting and retesting. A professional engagement is ethical hacking plus a signed scope, a method, a report and accountability for what was done to your systems."
+      },
+      {
+        "q": "What is the difference between offensive security and managed security?",
+        "a": "Offensive security tests whether your defences can be broken, on a fixed engagement, and ends with a report. Managed security operates your defences continuously, for example through a SOC that monitors alerts. Some providers sell both. In this ranking, firms whose main product is managed security sit in Tier 3, and firms whose main product is testing sit in Tiers 1 and 2."
+      },
+      {
+        "q": "What does an offensive security company deliver at the end of an engagement?",
+        "a": "A written report is the main deliverable. A usable report states the scope and method, then lists each finding with severity, a CVSS score, evidence such as proof of concept and remediation steps. Many providers also deliver an executive summary and a retest result after your team fixes the findings. Ask for a sample report before you sign."
+      },
+      {
+        "q": "Can a SOC provider also be an offensive security company?",
+        "a": "Yes. Several managed security providers publish penetration testing and red teaming services next to their SOC. The difference is emphasis. When offensive work is the main product, the provider is a specialist; when it is an add-on to monitoring, it is a managed-security-led provider. Review the service list and the report description to see which applies."
+      }
+    ]
+  },
+  {
+    "key": "guide-b",
+    "type": "guide",
+    "slug": "/penetration-testing-vs-red-teaming/",
+    "title": "Penetration Testing vs Red Teaming vs VAPT (2026)",
+    "description": "Penetration testing, VAPT, red teaming, purple teaming and PTaaS compared by goal, scope, duration and deliverables, with a guide to what a UAE company needs.",
+    "h1": "Penetration Testing vs Red Teaming vs VAPT",
+    "schema": [
+      "Article",
+      "FAQPage",
+      "BreadcrumbList"
+    ],
+    "faq": [
+      {
+        "q": "Is VAPT the same as a penetration test?",
+        "a": "Not exactly. VAPT stands for vulnerability assessment and penetration testing. The assessment part finds and lists weaknesses, often with scanners; the penetration test part exploits selected ones to prove impact. A penetration test alone skips the broad listing. Check the quote: if it is scanner output with no exploitation, it is a vulnerability assessment, not a penetration test."
+      },
+      {
+        "q": "How is a red team different from a penetration test?",
+        "a": "A penetration test examines a defined scope and tries to find every exploitable weakness it can, usually with the security team informed. A red team pursues one objective across people, process and technology and tests whether defenders notice. A penetration test measures exposure. A red team measures detection and response. Many organisations do the first before the second."
+      },
+      {
+        "q": "Which should a company without a SOC buy first?",
+        "a": "A penetration test, or VAPT for broad coverage. A red team tests detection and response, and without a SOC or monitoring there is little to test. Fix the weaknesses a penetration test finds, build detection, then consider a red team or purple team exercise to check that the controls work."
+      },
+      {
+        "q": "Is PTaaS a replacement for manual penetration testing?",
+        "a": "No. PTaaS delivers testing through a platform on a recurring schedule, which suits fast-changing applications. Depth still depends on who validates findings. Ask whether named testers perform manual testing inside the platform, and whether the report includes proof of concept and remediation guidance. Many teams combine PTaaS for continuity with periodic manual tests for depth."
+      }
+    ]
+  },
+  {
+    "key": "guide-c",
+    "type": "guide",
+    "slug": "/uae-penetration-testing-requirements/",
+    "title": "UAE Pentest Requirements: DESC ISR, PDPL, PCI DSS 2026",
+    "description": "Which UAE rules drive penetration testing: DESC ISR, UAE IA, PDPL, DIFC and ADGM, PCI DSS and CBUAE. A requirement-by-requirement map with primary sources.",
+    "h1": "UAE Penetration Testing Requirements by Regulation",
+    "schema": [
+      "Article",
+      "FAQPage",
+      "BreadcrumbList"
+    ],
+    "faq": [
+      {
+        "q": "Does UAE law require every company to run penetration tests?",
+        "a": "No source reviewed sets a blanket requirement. PCI DSS Requirement 11.4 requires testing for entities handling card data, and the Dubai Cyber Force programme governs providers to Dubai government bodies. The PDPL, the UAE IA Regulation and free zone regimes set general security duties. Your sector regulator, contracts and customers may add requirements, so check each one."
+      },
+      {
+        "q": "Do I need a Dubai Cyber Force provider for private-sector work?",
+        "a": "CREST describes the programme as covering penetration testing and incident response for Dubai government, semi-government and critical information infrastructure entities, and says those entities must use certified providers. Private-sector buyers outside those groups are not described as covered. A private buyer may still choose a registered provider as a quality signal. Confirm current status and scope with DESC."
+      },
+      {
+        "q": "Is PCI DSS penetration testing different from a normal pentest?",
+        "a": "The method is similar, but the scope is defined by the cardholder data environment. Requirement 11.4 calls for internal and external testing at least annually and after significant change, plus segmentation testing. The report should show scope, method, findings, and retest of any exploitable finding, so an assessor can follow the evidence."
+      },
+      {
+        "q": "How often should penetration tests be repeated?",
+        "a": "Where a rule sets a frequency, follow it. PCI DSS sets at least every 12 months and after significant change. For other organisations the sources reviewed set no fixed interval. A sensible trigger is each major release, infrastructure change or new integration, plus a periodic baseline test. State the frequency in your security policy."
+      }
+    ]
+  },
+  {
+    "key": "guide-d",
+    "type": "guide",
+    "slug": "/how-to-choose-offensive-security-company-uae/",
+    "title": "How to Choose an Offensive Security Company in the UAE",
+    "description": "A practical checklist for choosing a penetration testing or red team provider in the UAE: scope, methodology, reports, retesting, accreditations, red flags.",
+    "h1": "How to Choose an Offensive Security Company in the UAE",
+    "schema": [
+      "Article",
+      "FAQPage",
+      "BreadcrumbList"
+    ],
+    "faq": [
+      {
+        "q": "How many providers should I ask for a quote?",
+        "a": "Two or three. Fewer gives you no comparison. More adds scoping effort without improving the decision. Send each the same written scope so the quotes can be compared on method, report, retest and price. If the quotes differ widely, the usual cause is a scope difference, so ask each provider to state what it assumed."
+      },
+      {
+        "q": "Should I pick the cheapest quote?",
+        "a": "Not on price alone. Compare what each quote includes: manual testing versus scanning, authenticated roles, retest, reporting and named testers. A low quote that covers less is not a cheaper version of the same work. Normalise the quotes by scope first, then compare price. The cost guide explains the factors."
+      },
+      {
+        "q": "Do I need the provider to be based in the UAE?",
+        "a": "Not by default. Local presence helps with workshops, data residency questions and regional programmes. Dubai government work has specific provider requirements under the Dubai Cyber Force programme. For other buyers, the deciding factors are method, report quality and named testers. Check what each company states about its UAE presence and what it leaves unstated."
+      },
+      {
+        "q": "What should I prepare before the first call?",
+        "a": "A scope list: applications, URLs, IP ranges or cloud accounts; user roles that need test accounts; environments (production or staging); constraints such as blackout windows; and the reason for the test, such as audit, release or customer request. With that, a provider can quote against the same assumptions as the others."
+      }
+    ]
+  },
+  {
+    "key": "guide-e",
+    "type": "guide",
+    "slug": "/offensive-security-certifications-explained/",
+    "title": "CREST, OSCP, PCI QSA Explained: Pentest Credentials 2026",
+    "description": "Company accreditations, individual certifications and real red team experience are different things. See what CREST, OSCP, PCI QSA and DESC Cyber Force prove.",
+    "h1": "Offensive Security Certifications and Accreditations Explained",
+    "schema": [
+      "Article",
+      "FAQPage",
+      "BreadcrumbList"
+    ],
+    "faq": [
+      {
+        "q": "Is CREST accreditation the same as holding CREST certifications?",
+        "a": "No. CREST accredits companies and certifies individuals, and the two are independent. A company can employ CREST-certified testers without being accredited, and an accredited company can employ testers who hold other certifications. Check the company's entry in the CREST Marketplace for accreditation, and ask for the testers' certificates for the individual level."
+      },
+      {
+        "q": "Does OSCP make a company qualified to test my systems?",
+        "a": "OSCP certifies an individual after a practical exam. It shows that a person completed that exam. It says nothing about the company's processes, reporting or experience with your type of system. Treat it as one signal about a tester, and ask who will work on your project, what they have delivered and how the company controls quality."
+      },
+      {
+        "q": "Is a PCI QSA company the same as a penetration testing company?",
+        "a": "No. A PCI QSA company is qualified to assess compliance with PCI DSS. Penetration testing is a separate service required under Requirement 11.4. Some companies offer both, but the QSA designation does not prove penetration testing skill. Ask for the penetration testing team's method and sample report separately."
+      },
+      {
+        "q": "Do all UAE buyers need a DESC Cyber Force provider?",
+        "a": "No. CREST describes the programme as covering providers to Dubai government, semi-government and critical information infrastructure entities, and says those entities must use certified providers. Other buyers are not described as covered. CREST's pages differ on the start date, so confirm current status and scope with DESC before you set the requirement in a tender."
+      }
+    ]
+  },
+  {
+    "key": "guide-f",
+    "type": "guide",
+    "slug": "/penetration-testing-cost-uae/",
+    "title": "Penetration Testing Cost in the UAE (2026): Pricing Factors",
+    "description": "What drives penetration testing prices in the UAE: scope, depth, assets, retesting, reporting. Pricing models, a quote checklist, how to compare offers.",
+    "h1": "Penetration Testing Cost in the UAE",
+    "schema": [
+      "Article",
+      "FAQPage",
+      "BreadcrumbList"
+    ],
+    "faq": [
+      {
+        "q": "Why do penetration testing quotes differ so much?",
+        "a": "Quotes differ because scope, depth and deliverables differ. One provider may price manual testing of three user roles with a retest. Another may price a scanner run with a summary report. Ask each provider to state its scope assumptions, the share of manual work and what the report includes, so you compare like with like."
+      },
+      {
+        "q": "Is a retest included in the price?",
+        "a": "Sometimes. Some quotes include one retest within a time limit, some charge for it separately, and some omit it. A retest confirms which findings were fixed, so ask for it in writing, with the number of rounds and the time window after the first report is delivered."
+      },
+      {
+        "q": "Is PTaaS cheaper than a one-off penetration test?",
+        "a": "Not by definition. PTaaS spreads cost over a subscription and suits teams that ship often. A one-off test suits a release or an audit. Compare the annual cost of both against your release rhythm, and check whether the subscription includes manual testing by named testers and a retest."
+      },
+      {
+        "q": "Can I get a price from this site?",
+        "a": "No. This site does not quote prices or sell services. Contact providers directly with the same written scope, and compare the quotes using the checklist above. The ranking shows what each company states publicly about its testing scope."
+      }
+    ]
+  },
+  {
+    "key": "guide-g",
+    "type": "guide",
+    "slug": "/crypto-security-testing-forensics-uae/",
+    "title": "Crypto Security Testing and Forensics in the UAE (2026)",
+    "description": "How offensive security testing and blockchain forensics differ for UAE virtual asset firms: wallet and exchange testing, tracing, VARA context, what to ask.",
+    "h1": "Crypto Security Testing and Forensics in the UAE",
+    "schema": [
+      "Article",
+      "FAQPage",
+      "BreadcrumbList"
+    ],
+    "faq": [
+      {
+        "q": "What is the difference between a smart contract audit and a penetration test?",
+        "a": "A smart contract audit reviews contract code and logic, usually before deployment, to find flaws in the contract itself. A penetration test attacks the running system around it: the web front end, APIs, admin keys, oracle integrations and infrastructure. They address different risks. A virtual asset firm that launches a contract often needs both."
+      },
+      {
+        "q": "Does a penetration test replace blockchain forensics?",
+        "a": "No. A penetration test looks for weaknesses before an attack. Forensics reconstructs an attack and traces funds afterwards. They produce different deliverables and need different skills, and not every offensive security firm offers both. Check each provider's stated services and ask for a sample deliverable for each one."
+      },
+      {
+        "q": "Can funds stolen in a hack be recovered through forensics?",
+        "a": "Forensics can trace where funds moved and produce evidence, which supports action by exchanges, counsel or authorities. It does not guarantee recovery. Outcomes depend on how quickly the funds were moved, which services they touched and which authority acts. Be wary of any provider that promises recovery."
+      },
+      {
+        "q": "Does VARA require penetration testing?",
+        "a": "The VARA pages reviewed do not set out technical security controls or mention penetration testing. VARA publishes a rulebook with requirements by licence category, so read the rulebook for your activity and ask VARA or your counsel. A penetration test is still a practical way to evidence security to partners and insurers."
+      }
+    ]
+  },
+  {
+    "key": "methodology",
+    "type": "service",
+    "slug": "/methodology/",
+    "title": "How We Rank Offensive Security Companies in the UAE",
+    "description": "How the ranking works: tiers, six criteria, evidence labels and the ordering rule used to compare offensive security companies in the UAE, with limits.",
+    "h1": "How We Rank Offensive Security Companies",
+    "schema": [
+      "Article",
+      "BreadcrumbList"
+    ],
+    "faq": []
+  },
+  {
+    "key": "add-a-company",
+    "type": "service",
+    "slug": "/add-a-company/",
+    "title": "Add Your Company to the UAE Offensive Security Ranking",
+    "description": "Request inclusion of an offensive security company in the UAE ranking: eligibility checklist, data to send, how the review works. Submit by email, no forms.",
+    "h1": "Add a Company to the Ranking",
+    "schema": [
+      "WebPage",
+      "BreadcrumbList"
+    ],
+    "faq": []
+  },
+  {
+    "key": "about",
+    "type": "service",
+    "slug": "/about/",
+    "title": "About Offensive Security Companies UAE",
+    "description": "About the UAE offensive security ranking: what it compares, how the Editorial Team compiles it from public sources, and what it does not do. November 2026.",
+    "h1": "About This Ranking",
+    "schema": [
+      "AboutPage",
+      "BreadcrumbList"
+    ],
+    "faq": []
+  },
+  {
+    "key": "editorial-policy",
+    "type": "service",
+    "slug": "/editorial-policy/",
+    "title": "Editorial Policy",
+    "description": "Editorial policy for the UAE offensive security ranking: sourcing rules, evidence labels, corrections, company requests and what the site never publishes.",
+    "h1": "Editorial Policy",
+    "schema": [
+      "WebPage",
+      "BreadcrumbList"
+    ],
+    "faq": []
+  },
+  {
+    "key": "sources",
+    "type": "service",
+    "slug": "/sources/",
+    "title": "Sources and Fact-Checking",
+    "description": "Primary sources and fact-checking method behind the UAE offensive security ranking: regulators, standards bodies and directories, and when each was checked.",
+    "h1": "Sources and Fact-Checking",
+    "schema": [
+      "WebPage",
+      "BreadcrumbList"
+    ],
+    "faq": []
+  },
+  {
+    "key": "contact",
+    "type": "service",
+    "slug": "/contact/",
+    "title": "Contact the Editorial Team",
+    "description": "Contact the Editorial Team for corrections, inclusion requests and questions about the UAE offensive security ranking. Domain email, no forms, no tracking.",
+    "h1": "Contact the Editorial Team",
+    "schema": [
+      "ContactPage",
+      "BreadcrumbList"
+    ],
+    "faq": []
+  },
+  {
+    "key": "terms",
+    "type": "service",
+    "slug": "/terms/",
+    "title": "Terms and Disclaimer",
+    "description": "Terms and disclaimer for the UAE offensive security ranking: public-source information, no warranty, verify with providers, screenshots owned by owners.",
+    "h1": "Terms and Disclaimer",
+    "schema": [
+      "WebPage",
+      "BreadcrumbList"
+    ],
+    "faq": []
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "name": "offensive-security-companies-uae",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "serve": "node serve.mjs",
+    "check": "node scripts/check.mjs",
+    "screens": "node scripts/screens.mjs"
+  },
+  "devDependencies": {
+    "@fontsource/barlow-condensed": "^5.3.0",
+    "playwright-core": "^1.65.1",
+    "sharp": "^0.35.5"
+  }
+}
