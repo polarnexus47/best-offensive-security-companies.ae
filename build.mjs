@@ -131,6 +131,12 @@ ${noindex ? '' : `<link rel="canonical" href="${url}">
 <link rel="manifest" href="/site.webmanifest">
 <link rel="preload" href="/fonts/barlow-condensed-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/css/global.css">${css}
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-5G8XWNXW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
 ${noindex ? '' : `<script type="application/ld+json">${schema(p, url)}</script>`}`;
 }
 

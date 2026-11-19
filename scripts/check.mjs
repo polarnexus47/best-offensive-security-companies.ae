@@ -53,7 +53,9 @@ for (const { p, file } of files) {
   // tokens, scripts, emoji
   if (/\{\{[A-Z_]+\}\}/.test(html)) fail(`${tag} unreplaced token`);
   const scripts = (html.match(/<script(?![^>]*application\/ld\+json)[^>]*>/g) || []);
-  if (scripts.length) fail(`${tag} non-JSON-LD script present`);
+  const gtm = '<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-5G8XWNXW">';
+  if (!scripts.includes(gtm)) fail(`${tag} analytics tag missing`);
+  if (scripts.filter((x) => x !== gtm && x !== '<script>').length || scripts.length !== 2) fail(`${tag} unexpected script present`);
   if (/onclick=/i.test(html)) fail(`${tag} onclick attribute`);
   const body = text(html);
   if (EMOJI.test(body)) fail(`${tag} emoji in text`);
